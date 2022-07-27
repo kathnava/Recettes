@@ -13,7 +13,7 @@ header img{
 
     width: 130px;
 
-    height: 130px;
+    height: 100px;
 
 }
 
@@ -78,6 +78,7 @@ header li a:hover{
     display: none;
 
 }
+
 body {
 
     background-color: rgb(185, 185, 185);
@@ -99,7 +100,7 @@ h1 {
     height: 10%;
     /*background-color: rgba(190, 185, 185, 0.8);*/
     border-radius: 10px;
-    color: black;
+    color: white;
 }
 
 .parent1 {
@@ -109,7 +110,7 @@ h1 {
 }
 
 .parent2 h1 {
-color:white;
+   color:white;
 }
 
 .parent2 h2 {
@@ -235,6 +236,7 @@ object-fit: cover;
     margin: 0;
     padding: 0;
     object-fit: cover;
+    margin:40px 0 0 0 ;
 }
 
 #photo5 {
@@ -302,84 +304,52 @@ i p {
 
 
 footer {
-
     display: flex;
-
     flex-direction: column;
-
     background-color: #000;
-
     color:white;
-
     width: 100%;
-
     }
 
 .infos{
-
     display: flex;
-
     flex-direction: row;
-
     justify-content: space-between;
-
     align-items: center;
-
     margin: 3%;
-
 }
 
 .infos a {
-
     text-decoration: none;
-
     color: white;
-
 }
 
 .infos a:hover{
-
     text-decoration: none;
-
     color:red;
-
 }
 
 
 
 .icons{
-
     display: flex;
-
     flex-direction: row;
-
     justify-content: space-between;  
-
 }
 
 i{
-
     font-size: 25px;
-
     margin: 0 10px 0 10px;
-
 }
 
 .icons a:hover{
-
     color: red;
-
 }
 
 footer p{
-
     display: flex;
-
     justify-content: center;
-
     margin-bottom: 3%;
-
-
 }
 
 h2 {
@@ -397,11 +367,8 @@ h2 {
 
 @media screen and (min-width: 751px) and (max-width:950px) {
     header img{
-
         width: 130px;
-
-        height: 130px;
-
+        height: 100px;
     }
 
     header ul li {
@@ -437,7 +404,7 @@ h2 {
         font-size: 30px;
         margin-bottom: 10px;
     }
-    p{
+    p {
         font-size: 20px;
 
     }
@@ -448,11 +415,6 @@ h2 {
         border-radius: 10px;
         margin-right: 15px;
     }
-
-    /*#photo {
-        width: 400px;
-        height: 200px;
-    }*/
 
     #photo0 {
         width: 30%;
@@ -573,7 +535,7 @@ h2 {
 
         width: 150px;
 
-        height: 140px;
+        height: 100px;
 
     }
 
@@ -661,6 +623,8 @@ h2 {
         font-size: 20px;
     }
 
+    
+
     .step img {
         width: 300px;
         height: 300px;
@@ -707,6 +671,24 @@ h2 {
 
     .ingredients1 p {
         font-size: 20px;
+    }
+
+    #photo0 {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        margin-right: 15px;
+    }
+
+    #photo {
+        width: 100%;
+        border-radius: 10px;
+        margin-right: 15px;
+    }
+
+    p {
+        font-size: 20px;
+        color: white;
     }
 
 
